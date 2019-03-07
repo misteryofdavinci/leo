@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+
+ * {
+    margin: 0;
+    padding: 0;
+
+   }
+        html,body{
+
+ 
+  max-width:100%;
+}
+#bg
+{
+	position:absolute;
+	background-image:url(bg.jpg);
+	height:100vh;
+	width: 574vh;
+	background-repeat: no-repeat ;
+	background-size:100% 100%;
+	z-index:99;
+}
+
+
+#content1
+{
+	bottom:45vh;
+	position:absolute;
+	width:574vh;
+	height:50vh;
+	z-index:102;
+	/*border:1px solid red;*/
+	color:red;
+}
+#content2
+{
+	top:48vh;
+	position:absolute;
+	width:574vh;
+	height:50vh;
+	/*border:1px solid green;*/
+	z-index:101;
+	color:green;
+}
+.part_1472
+{
+	left:85vh;
+	position:absolute;
+	width:30vh;
+	height:100%;
+	/*border:1px solid yellow;*/
+	/*background-image:url(P_1472.png);*/
+	background-size:90% 90%;
+	background-repeat:no-repeat;
+	z-index:100;
+}
+.part_1468
+{
+	left:63vh;
+	position:absolute;
+	width:30vh;
+	height:100%;
+	/*border:1px solid red;*/
+	/*background-image:url(P_1468.png);*/
+	background-size:90% 90%;
+	background-repeat:no-repeat;
+	z-index:110;
+}
+.btn_1468
+{
+	top:26vh;
+	left:63.1vh;
+	position:absolute;
+	height:15vh;
+	width:15vh;
+	z-index:120;
+	background-repeat:no-repeat;
+	background-size:90% 90%;
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	overflow: hidden;
+	outline:none;
+	/*border:1px solid red;*/
+	border-radius:50%;
+	opacity:0;
+}
+.btn_1471
+{
+	top:25vh;
+	left:89vh;
+	position:absolute;
+	height:15vh;
+	width:15vh;
+	z-index:130;
+	background-repeat:no-repeat;
+	background-size:90% 90%;
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	overflow: hidden;
+	outline:none;
+	/*border:1px solid yellow;*/
+	border-radius:50%;
+	opacity:0;
+}
+.btn_1482
+{
+	top:25vh;
+	left:165vh;
+	position:absolute;
+	height:15vh;
+	width:15vh;
+	z-index:140;
+	background-repeat:no-repeat;
+	background-size:90% 90%;
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	overflow: hidden;
+	outline:none;
+	/*border:1px solid yellow;*/
+	border-radius:50%;
+	opacity:0;
+}
+.btn_1498
+{
+	top:10vh;
+	left:329vh;
+	position:absolute;
+	height:15vh;
+	width:15vh;
+	z-index:150;
+	background-repeat:no-repeat;
+	background-size:90% 90%;
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	overflow: hidden;
+	outline:none;
+	/*border:1px solid yellow;*/
+	border-radius:50%;
+	opacity:0;
+}
+.btn_1503
+{
+	top:10vh;
+	left:354vh;
+	position:absolute;
+	height:15vh;
+	width:15vh;
+	z-index:160;
+	background-repeat:no-repeat;
+	background-size:90% 90%;
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	opacity:0;
+	overflow: hidden;
+	outline:none;
+	border:1px solid yellow;
+	border-radius:50%;
+}
+.fullscreen-bg__video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index:200;
+}
+.overfloww
+{
+position:absolute;
+top:25vw;
+width:35vw;
+height:20vw;
+/*border:1px solid red;*/
+z-index:300;
+left:25vw;
+
+}
+.overfloww2
+{
+position:absolute;
+top:25vw;
+width:35vw;
+height:20vw;
+/*border:1px solid red;*/
+z-index:300;
+left:10vw;
+
+}
+.overfloww3
+{
+position:absolute;
+top:25vw;
+width:35vw;
+height:20vw;
+/*border:1px solid red;*/
+z-index:300;
+left:50vw;
+
+}
+.overfloww4
+{
+position:absolute;
+top:0;
+width:35vw;
+height:20vw;
+/*border:1px solid red;*/
+z-index:300;
+left:150vw;
+
+}
+.overfloww5
+{
+position:absolute;
+top:0;
+width:35vw;
+height:20vw;
+z-index:300;
+left:180vw;
+
+}
+#overfloww1
+{
+position:absolute;
+width:270vw;
+height:100%;
+z-index:200;
+display:none;
+}
+#overfloww2
+{
+position:absolute;
+width:270vw;
+height:100%;
+z-index:200;
+display:none;
+}
+#overfloww3
+{
+position:absolute;
+width:270vw;
+height:100%;
+z-index:200;
+display:none;
+}
+#overfloww4
+{
+position:absolute;
+width:270vw;
+height:100%;
+z-index:200;
+display:none;
+
+}
+#overfloww5
+{
+position:absolute;
+width:270vw;
+height:100%;
+z-index:200;
+display:none;
+
+}
+#b_1471
+{}
+#b_1468
+{}
+#b_1482
+{}
+#b_1498
+{}
+#b_1503
+{}
+p
+{
+	width:50vw;
+	
+	top:2.3vw;
+	left:3vw;
+	position: relative;
+	font-size: 1.8vw;
+	font-family: 'Mga', Regular;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	word-spacing: 1vw;
+	z-index:5;
+}
+
+a
+{
+	text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color:RGB(220,151,71); 
+	word-spacing: 0.3vw;
+	z-index:5;
+}
+a:hover
+{
+	color: #dbb282;
+	z-index:5;
+}
+    </style>
+    <script src="/scripts/snippet-javascript-console.min.js?v=1"></script>
+    </head>
+<body>
+<div id="overfloww1">
+ <video class="overfloww" id="flow" >
+<source src="full.mp4" type="video/mp4"/>
+</video>
+</div>
+<div id="overfloww2">
+<video class="overfloww2" id="flow2" >
+<source src="vid_final.mp4" type="video/mp4"/>
+</video>
+</div>
+<div id="overfloww3">
+<video class="overfloww3" id="flow3" >
+<source src="vid3_1.mp4" type="video/mp4"/>
+</video>
+</div>
+<div id="overfloww4">
+<video class="overfloww4" id="flow4" >
+<source src="vid4end.mp4" type="video/mp4"/>
+</video>
+</div>
+<div id="overfloww5">
+<video class="overfloww5" id="flow5" >
+<source src="vid5_end.mp4" type="video/mp4"/>
+</video>
+</div>
+  <div id="bg" >
+		<p>
+			<a href ="index.html">О выставке</a>
+			<a href="bio.html">Биография</a>
+			<a href="#content5">Экспозиция</a>
+			<a href="#content6">Интересные факты</a>
+		</p>
+  </div>
+
+	<div id="content1">
+		<button id="b_1498" class="btn_1498" onclick="">
+		</button>
+		<button id="b_1503" class="btn_1503" onclick="">
+		</button>
+	</div>
+	<div id="content2">
+		<button id="b_1468"class="btn_1468" onclick="">
+		</button>
+		<button id="b_1471" class="btn_1471" onclick="">
+		</button>
+		<button id="b_1482"class="btn_1482" onclick="">
+		</button>
+	</div>
+    <script type="text/javascript">
+//1471
+var elem1 = document.getElementById("b_1471");
+elem1.onclick = function() {
+var vid = document.getElementById("flow"); 
+vid.play();
+var elem2 = document.getElementById("overfloww1");
+elem2.style.display='block';
+};
+
+var elem3 = document.getElementById("overfloww1");
+elem3.onclick = function() {
+var vid1 = document.getElementById("flow"); 
+vid1.pause();
+var elem4 = document.getElementById("overfloww1");
+elem4.style.display='none';
+
+};
+var elem5 = document.getElementById("flow");
+elem5.onclick = function(){
+window.location.href = "video2.html"
+}
+//1468///////////////////////////////////////////////////
+var elem6 = document.getElementById("b_1468");
+elem6.onclick = function() {
+var vid2 = document.getElementById("flow2"); 
+vid2.play();
+var elem7 = document.getElementById("overfloww2");
+elem7.style.display='block';
+};
+
+var elem8 = document.getElementById("overfloww2");
+elem8.onclick = function() {
+var vid3 = document.getElementById("flow2"); 
+vid3.pause();
+var elem9 = document.getElementById("overfloww2");
+elem9.style.display='none';
+
+};
+var elem10 = document.getElementById("flow2");
+elem10.onclick = function(){
+window.location.href = "video1.html"
+}
+//1482///////////////////////////////////////
+var elem11 = document.getElementById("b_1482");
+elem11.onclick = function() {
+var vid4 = document.getElementById("flow3"); 
+vid4.play();
+var elem12 = document.getElementById("overfloww3");
+elem12.style.display='block';
+};
+
+var elem13 = document.getElementById("overfloww3");
+elem13.onclick = function() {
+var vid5 = document.getElementById("flow3"); 
+vid5.pause();
+var elem14 = document.getElementById("overfloww3");
+elem14.style.display='none';
+
+};
+var elem15 = document.getElementById("flow3");
+elem15.onclick = function(){
+window.location.href = "video3.html"
+}
+//1498//////////////////////
+var elem16 = document.getElementById("b_1498");
+elem16.onclick = function() {
+var vid5 = document.getElementById("flow4"); 
+vid5.play();
+var elem17 = document.getElementById("overfloww4");
+elem17.style.display='block';
+};
+
+var elem18 = document.getElementById("overfloww4");
+elem18.onclick = function() {
+var vid6 = document.getElementById("flow4"); 
+vid6.pause();
+var elem19 = document.getElementById("overfloww4");
+elem19.style.display='none';
+
+};
+var elem20 = document.getElementById("flow4");
+elem20.onclick = function(){
+window.location.href = "video4.html"
+}
+//1503///////////////////////////////////
+var elem21 = document.getElementById("b_1503");
+elem21.onclick = function() {
+var vid7 = document.getElementById("flow5"); 
+vid7.play();
+var elem22 = document.getElementById("overfloww5");
+elem22.style.display='block';
+};
+
+var elem23 = document.getElementById("overfloww5");
+elem23.onclick = function() {
+var vid8 = document.getElementById("flow5"); 
+vid8.pause();
+var elem24 = document.getElementById("overfloww5");
+elem24.style.display='none';
+
+};
+var elem25 = document.getElementById("flow5");
+elem25.onclick = function(){
+window.location.href = "video5.html"
+}
+
+
+function scrollHorizontally(e) { //включает горизонтальный скрол элемента колесом
+e = window.event || e;
+var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail))); //это шаг колеса для разных браузеров
+document.documentElement.scrollLeft -= (delta * 40); //прокручиваем всю страницу
+e.preventDefault();
+};
+
+function addMouseWell(elem, callback) { //вешает кроссплатформенный обработчик на колесо мыши над элементом
+if (elem.addEventListener) {
+if ('onwheel' in document) {
+elem.addEventListener("wheel", callback);
+} else if ('onmousewheel' in document) {
+elem.addEventListener("mousewheel", callback);
+} else {
+elem.addEventListener("MozMousePixelScroll", callback);
+}
+} else {
+elem.attachEvent("onmousewheel", callback);
+}
+}
+
+addMouseWell(window, scrollHorizontally);
+</script>
+
+</body>
+</html>
